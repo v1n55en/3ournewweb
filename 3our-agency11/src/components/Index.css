@@ -1,0 +1,45 @@
+:root {
+  --primary: #599d39;
+  --background: #ffffff;
+  --text: #000000;
+  --text-light: #666666;
+  --border: #e5e5e5;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--text);
+  background-color: var(--background);
+}
+
+.btn-primary {
+  @apply bg-[#599d39] text-white font-medium rounded-lg hover:bg-[#4a8a2e] transition-colors;
+}
+
+.btn-outline {
+  @apply border border-[#599d39] text-[#599d39] font-medium rounded-lg hover:bg-[#599d39]/10 transition-colors;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-bold text-black mb-4;
+}
+
+.section-subtitle {
+  @apply text-lg text-gray-700 max-w-2xl mx-auto;
+}
+
+.card {
+  @apply bg-white rounded-xl shadow-lg p-6 transition-all duration-300 hover:shadow-xl;
+}
+
+.card-title {
+  @apply text-xl font-bold text-black mb-3;
+}
+
+.card-text {
+  @apply text-gray-700;
+}
