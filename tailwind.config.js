@@ -1,9 +1,9 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  safelist: ['text-white'],
   theme: {
     extend: {
       colors: {
@@ -20,5 +20,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require("tailwindcss-animate"),
+  ],
 }
