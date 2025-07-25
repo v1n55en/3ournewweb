@@ -27,6 +27,10 @@ const Hero = () => {
                 src={orang}
                 alt="3Our Agency"
                 className="w-40 h-40 object-contain"
+                style={{
+                  transition: 'transform 0.2s linear',
+                  transform: `rotate(${rotation}deg) scale(${1 + rotation * 0.002})`,
+                }}
               />
             </div>
             <p className="text-lg text-gray-300 mb-8">
