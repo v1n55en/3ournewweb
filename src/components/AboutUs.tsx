@@ -29,7 +29,7 @@ const AboutUs = () => {
               <div className="w-full h-64 bg-[#599d39] rounded-lg opacity-10 absolute -top-4 -left-4"></div>
               <div className="relative z-10 bg-white p-4 rounded-lg shadow-lg">
                 <div
-                  className="w-full bg-gray-200 rounded-lg flex items-center justify-center overflow-hidden"
+                  className="w-full aspect-[3/2] bg-gray-200 rounded-lg overflow-hidden"
                   style={{ height: '304px' }}
                 >
                   <img
