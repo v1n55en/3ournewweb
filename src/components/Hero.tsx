@@ -32,7 +32,7 @@ const Hero = () => {
             <p className="text-lg text-gray-300 mb-8">
               3Our Agency helps businesses grow their online presence through strategic social media management, web development, and digital marketing solutions.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="w-full flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a 
                 href="#services" 
                 className="px-6 py-3 bg-[#599d39] text-white font-medium rounded-lg hover:bg-[#4a8a2e] transition-colors flex items-center justify-center"
