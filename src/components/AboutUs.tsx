@@ -33,7 +33,7 @@ const AboutUs = () => {
                   style={{ height: '304px' }}
                 >
                   <img
-                    src="/src/assets/images/team.jpg"
+                    src="images/team.jpg"
                     alt="3Our Team"
                     className="object-cover w-full h-full"
                   />
