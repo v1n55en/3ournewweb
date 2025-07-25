@@ -27,7 +27,7 @@ const handleConversion = (url?: string) => {
       event_callback: callback,
     });
   } else {
-    callback(); // Fallback kalau gtag belum ready
+    callback();
   }
 };
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
