@@ -30,11 +30,11 @@ const AboutUs = () => {
               <div className="relative z-10 bg-white p-4 rounded-lg shadow-lg">
                 <div
                   className="w-full bg-gray-200 rounded-lg flex items-center justify-center overflow-hidden"
-                  style={{ height: '304px' }} // 224px + 80px = 304px (sekitar 2cm lebih tinggi)
+                  style={{ height: '304px' }}
                 >
                   <img
-                    src="/src/assets/images/team.jpg" // ganti path sesuai lokasi gambar tim kamu
-                    alt="Our Team"
+                    src="/src/assets/images/team.jpg"
+                    alt="3Our Team"
                     className="object-cover w-full h-full"
                   />
                 </div>
