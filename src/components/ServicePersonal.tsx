@@ -106,7 +106,7 @@ const ServicePersonal = () => {
             Personal Branding Service
           </h2>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-            Pilih paket personal yang sesuai kebutuhan konten dan gaya kamu.
+            Chooose your branding package that suits your needs and content style.
           </p>
         </div>
 
