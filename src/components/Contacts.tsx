@@ -20,7 +20,7 @@ const handleConversion = (url?: string) => {
   };
 
   if (typeof window !== "undefined" && typeof (window as any).gtag !== "undefined") {
-    (window as any).gtag("event", "conversion", {
+    (window as any).gtag("event", "submit_contact_form", {
       send_to: "AW-16565584439/_VmkCJmOmPgaELeEi9s9",
       value: 1.0,
       currency: "IDR",
