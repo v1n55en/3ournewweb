@@ -14,7 +14,22 @@ const ContactForm = () => {
   });
 
   const [isSubmitted, setIsSubmitted] = useState(false);
+const handleConversion = (url?: string) => {
+  const callback = () => {
+    if (url) window.location.href = url;
+  };
 
+  if (typeof window !== "undefined" && typeof (window as any).gtag !== "undefined") {
+    (window as any).gtag("event", "conversion", {
+      send_to: "AW-16565584439/_VmkCJmOmPgaELeEi9s9",
+      value: 1.0,
+      currency: "IDR",
+      event_callback: callback,
+    });
+  } else {
+    callback(); // Fallback kalau gtag belum ready
+  }
+};
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({
@@ -39,6 +54,7 @@ const ContactForm = () => {
       mode: "no-cors",
       body: form,
     }).then(() => {
+      handleConversion();
       setIsSubmitted(true);
       setTimeout(() => {
         setIsSubmitted(false);
@@ -175,7 +191,6 @@ const ContactForm = () => {
     </div>
   );
 };
-
 const Contact = () => {
   return (
     <section id="contact" className="py-16 bg-gray-50">
