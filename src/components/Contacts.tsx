@@ -129,6 +129,7 @@ const ContactForm = () => {
               <option value="social_services">Starter Plan</option>
               <option value="build_plan">Build Plan</option>
               <option value="amplify_pack">Amplify Pack</option>
+              <option value="personal_branding">Personal Branding</option>
             </select>
           </div>
           
