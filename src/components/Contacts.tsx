@@ -21,7 +21,7 @@ const handleConversion = (url?: string) => {
 
   if (typeof window !== "undefined" && typeof (window as any).gtag !== "undefined") {
     (window as any).gtag("event", "submit_contact_form", {
-      send_to: "AW-16565584439/_VmkCJmOmPgaELeEi9s9",
+      send_to: "AW-996823441/-klWCO25o_gaEJGjqdsD",
       value: 1.0,
       currency: "IDR",
       event_callback: callback,
