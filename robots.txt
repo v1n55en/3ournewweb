@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://3our.web.id/sitemap.xml
+Sitemap: https://3ourasia.id/sitemap.xml
